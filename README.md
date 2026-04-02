@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/LangGraph-0052FF?style=flat-square&logo=graphite&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092e20?style=flat-square&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
 </p>
 
 **Frontend**
