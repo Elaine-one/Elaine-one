@@ -34,7 +34,7 @@
 ### 📊 数据看板 | My Metrics
 <p align="center">
   <!-- 指向 output 分支生成的看板 -->
-  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-metrics.svg" />
+  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/github-metrics.svg" />
 </p>
 
 ---
