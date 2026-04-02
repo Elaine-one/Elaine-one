@@ -34,12 +34,8 @@
 
 ### 📊 语言统计看板 | Language Proficiency
 
-<p align="center">
-  <!-- 这里使用了你跑通的 Action 生成的精准语言统计图 -->
-  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-metrics.svg" />
-</p>
 
-<!-- 如果你更喜欢简洁的横向进度条，可以保留下面这个 -->
+
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 </p>
