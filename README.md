@@ -33,9 +33,8 @@
 
 ### 📊 My Metrics
 
-<p align="center">
-  <img src="https://github.com/Elaine-one/Elaine-one/releases/download/metrics/github-metrics.svg" />
-</p>
+![Metrics](https://raw.githubusercontent.com/Elaine-one/Elaine-one/main/github-metrics.svg)
+
 
 ### 📈 Activity Graph
 ![Elaine's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Elaine-one&theme=react-dark&bg_color=0D1117&hide_border=true)
