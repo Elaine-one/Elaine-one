@@ -4,11 +4,7 @@
   <img src="https://komarev.com/ghpvc/?username=Elaine-one&label=Profile%20views&color=0e75b6&style=flat" alt="Elaine-one" />
 </p>
 
-### 💫 About Me
-- 🔭 I’m currently working on **Shaanxi Heritage AI Platform** (陕西文化遗产 AI 平台).
-- 🚀 Developing **SmartChat**, an intelligent conversational application.
-- 🤖 Interested in LLMs, Computer Vision, and Digital Humanities.
-- ⚡ Fun fact: I love combining traditional culture with modern AI technology.
+
 
 ---
 
@@ -23,13 +19,6 @@
 
 ---
 
-### 📊 GitHub Stats (Powered by Actions)
-
-<p align="center">
-  <!-- 替换下面 URL 中的 Elaine-one 为你的用户名 -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Elaine-one&show_icons=true&theme=transparent&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=transparent&langs_count=6" />
-</p>
 
 ---
 
