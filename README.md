@@ -31,10 +31,10 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 My Metrics
+
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Elaine-one&show_icons=true&theme=transparent&hide_border=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=transparent&hide_border=true" />
+  <img src="https://github.com/Elaine-one/Elaine-one/releases/download/metrics/github-metrics.svg" />
 </p>
 
 ### 📈 Activity Graph
