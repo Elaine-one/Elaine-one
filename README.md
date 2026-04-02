@@ -31,15 +31,11 @@
 
 ---
 
-<p align="center">
-  <!-- 关注者数量 -->
-  <img src="https://img.shields.io/github/followers/Elaine-one?label=Followers&style=for-the-badge&logo=github&color=24292e" />
-  <!-- 公开仓库数量 -->
-  <img src="https://img.shields.io/github/repos/all/Elaine-one?label=Repositories&style=for-the-badge&logo=git&color=0052FF" />
-  <!-- 主打项目的 Star 数量 (这里以你的 AI 平台为例) -->
-  <img src="https://img.shields.io/github/stars/Elaine-one/shaanxi-heritage-ai-platform?label=AI%20Platform%20Stars&style=for-the-badge&logo=github&color=0e75b6" />
-</p>
+### 📊 编程语言统计 | Top Languages
 
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+</p>
 ### 🐍 贡献轨迹 | Contribution Snake
 <p align="center">
   <!-- 指向 output 分支生成的贪吃蛇 -->
