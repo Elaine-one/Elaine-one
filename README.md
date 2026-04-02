@@ -32,11 +32,13 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Elaine-one?style=for-the-badge&logo=github&color=24292e" />
-  <img src="https://img.shields.io/github/commit-activity/y/Elaine-one?style=for-the-badge&logo=git&color=0052FF" />
-  <img src="https://img.shields.io/github/languages/count/Elaine-one?style=for-the-badge&logo=python&color=3776AB" />
+  <!-- 关注者数量 -->
+  <img src="https://img.shields.io/github/followers/Elaine-one?label=Followers&style=for-the-badge&logo=github&color=24292e" />
+  <!-- 公开仓库数量 -->
+  <img src="https://img.shields.io/github/repos/all/Elaine-one?label=Repositories&style=for-the-badge&logo=git&color=0052FF" />
+  <!-- 主打项目的 Star 数量 (这里以你的 AI 平台为例) -->
+  <img src="https://img.shields.io/github/stars/Elaine-one/shaanxi-heritage-ai-platform?label=AI%20Platform%20Stars&style=for-the-badge&logo=github&color=0e75b6" />
 </p>
----
 
 ### 🐍 贡献轨迹 | Contribution Snake
 <p align="center">
