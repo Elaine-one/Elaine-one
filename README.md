@@ -31,12 +31,11 @@
 
 ---
 
-### 📊 数据看板 | My Metrics
 <p align="center">
-  <!-- 指向 output 分支生成的看板 -->
-  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/github-metrics.svg" />
+  <img src="https://img.shields.io/github/stars/Elaine-one?style=for-the-badge&logo=github&color=24292e" />
+  <img src="https://img.shields.io/github/commit-activity/y/Elaine-one?style=for-the-badge&logo=git&color=0052FF" />
+  <img src="https://img.shields.io/github/languages/count/Elaine-one?style=for-the-badge&logo=python&color=3776AB" />
 </p>
-
 ---
 
 ### 🐍 贡献轨迹 | Contribution Snake
