@@ -1,34 +1,39 @@
-name: GitHub Metrics
-
+name: Metrics & Snake
 on:
-  schedule:
-    - cron: "0 0 * * *" # 每天运行一次
-  workflow_dispatch: # 允许手动运行
-  push:
-    branches:
-      - main
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
 
 jobs:
-  github-metrics:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Generate Metrics
-        uses: lowlighter/metrics@latest
+      # 1. 生成看板 (去掉了报错的插件，改成了更简洁的样式)
+      - uses: lowlighter/metrics@latest
         with:
-          # 这边必须要和你设置的 Secret 名字一致
           token: ${{ secrets.GH_TOKEN }}
-          
-          # 基础配置
           user: Elaine-one
           template: classic
-          base: header, activity, community, repositories, metadata
-          
-          # 显示你的语言占比
+          base: header, repositories, metadata
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex
-          plugin_languages_details: bytes-size, percentage
-          
-          # 显示活跃度
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+          plugin_languages_details: percentage
+          plugin_activity: no # 关闭这个报错的插件
+
+      # 2. 生成贪吃蛇
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Elaine-one
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 3. 将贪吃蛇图片存入仓库
+      - name: Push Snake to Repository
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: main # 存放在主分支
+          keep_files: true # 重点：不要删除看板图
