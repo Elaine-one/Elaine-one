@@ -31,15 +31,14 @@
 
 ---
 
-### 📊 编程语言统计 | Top Languages
+### 📊 Top Languages
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 </p>
-### 🐍 贡献轨迹 | Contribution Snake
+### 🐍 Contribution Snake
 <p align="center">
-  <!-- 指向 output 分支生成的贪吃蛇 -->
-  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-snake.svg" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=3776AB&center=true&vCenter=true&width=500&lines=Hi+there,+I'm+Elaine!+👋;AI+Developer+&+Digital+Humanist;Building+Shaanxi+Heritage+AI+Platform;Passionate+about+LLM+and+CV" alt="Typing SVG" />
 </p>
 
 ### 📈 Activity Graph
