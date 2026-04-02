@@ -1,8 +1,8 @@
-name: Metrics & Snake
+name: Snake Game
 on:
-  schedule: [{cron: "0 0 * * *"}]
-  workflow_dispatch:
-  push: {branches: ["main"]}
+  schedule: [{cron: "0 0 * * *"}] # 每天凌晨更新
+  workflow_dispatch: # 允许手动点击运行
+  push: {branches: ["main"]} # 每次向 main 分支推送时更新
 
 jobs:
   build:
@@ -10,22 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. 生成看板图片 (Metrics)
-      - name: GitHub Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GH_TOKEN }}
-          user: Elaine-one
-          template: classic
-          base: header, repositories, metadata
-          plugin_languages: yes
-          plugin_languages_details: percentage
-          plugin_activity: no
-          filename: github-metrics.svg
-          # 关键修改：让它只生成文件，不直接在这里提交
-          output_action: none 
-
-      # 2. 生成贪吃蛇图片 (Snake)
+      # 1. 生成贪吃蛇图片
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -35,12 +20,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      # 3. 把所有生成的图片统一推送到 output 分支
+      # 2. 把生成的图片推送到 output 分支
       - name: Push to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: . # 部署当前目录下新生成的 svg 文件
-          publish_branch: output # 存放在独立的 output 分支
-          # 仅包含生成的 svg 图片
-          publish_assets: "*.svg"
+          publish_dir: . 
+          publish_branch: output
+          publish_assets: "github-snake.svg" # 只搬运蛇，保持分支干净
