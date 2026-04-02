@@ -33,11 +33,15 @@
 
 ### 📊 数据看板 | My Metrics
 <p align="center">
+  <!-- 指向 output 分支生成的看板 -->
   <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-metrics.svg" />
 </p>
 
+---
+
 ### 🐍 贡献轨迹 | Contribution Snake
 <p align="center">
+  <!-- 指向 output 分支生成的贪吃蛇 -->
   <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-snake.svg" />
 </p>
 
