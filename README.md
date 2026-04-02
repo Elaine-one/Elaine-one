@@ -31,10 +31,15 @@
 
 ---
 
-### 📊 My Metrics
+### 📊 数据看板 | My Metrics
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-metrics.svg" />
+</p>
 
-![Metrics](https://raw.githubusercontent.com/Elaine-one/Elaine-one/main/github-metrics.svg)
-
+### 🐍 贡献轨迹 | Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/output/github-snake.svg" />
+</p>
 
 ### 📈 Activity Graph
 ![Elaine's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Elaine-one&theme=react-dark&bg_color=0D1117&hide_border=true)
