@@ -25,7 +25,7 @@
 ---
 
 ### 🌟 Featured Projects
-- 🤖 **[WxAgent](https://github.com/Elaine-one/WxAgent)** - 将 AI 大模型接入微信个人号，打造运行在 PC 上的智能助手。支持多厂商模型、文件操作、代码执行、系统控制。
+- 🤖 **[WxAgent](https://github.com/Elaine-one/WxAgent)** - 将 AI 大模型接入微信和飞书，打造运行在 PC上的智能助手。支持多厂商模型、文件操作、代码执行、系统控制、飞书文档/多维表格/日历，58+ 工具开箱即用。
 - 🧠 **[Qwen2.5-LoRA](https://github.com/Elaine-one/Qwen2.5-LoRA)** - 基于 Qwen2.5 的轻量化大模型微调实践。
 - 🏛️ **[Shaanxi Heritage AI](https://github.com/Elaine-one/shaanxi-heritage-ai-platform)** - 用 AI 赋能陕西文化遗产保护。
 - 💬 **[SmartChat](https://github.com/Elaine-one/SmartChat)** - 基于大模型的智能对话系统。
