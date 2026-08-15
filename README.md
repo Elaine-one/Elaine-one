@@ -37,7 +37,7 @@
 
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Elaine-one&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 </p>
 
 ---
