@@ -43,7 +43,9 @@
 ---
 
 ### 📈 活跃轨迹 | Activity Graph
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=Elaine-one&theme=react-dark&bg_color=0D1117&hide_border=true)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Elaine-one/Elaine-one/activity-output/activity-graph.svg" width="100%" alt="GitHub Activity Graph" />
+</p>
 
 ### 🐍 贡献蚕食者 | Contribution Snake
 <p align="center">
